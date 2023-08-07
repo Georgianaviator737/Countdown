@@ -1,0 +1,72 @@
+body {
+  background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span:before {
+  content: '';
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+  animation: count 10s forwards;
+}
+
+@keyframes count {
+  0% {
+    content: '10';
+    font-size: 200px;
+  }
+
+  10% {
+    content: '9';
+    font-size: 200px;
+  }
+
+  20% {
+    content: '8';
+    font-size: 200px;
+  }
+
+  30% {
+    content: '7';
+    font-size: 200px;
+  }
+
+  40% {
+    content: '6';
+    font-size: 200px;
+  }
+
+  50% {
+    content: '5';
+    font-size: 200px;
+  }
+
+  60% {
+    content: '4';
+    font-size: 200px;
+  }
+
+  70% {
+    content: '3';
+    font-size: 200px;
+  }
+
+  80% {
+    content: '2';
+    font-size: 200px;
+  }
+
+  90% {
+    content: '1';
+    font-size: 200px;
+  }
+  
+  100% {
+    content: 'Congratulations! You just wasted 10 seconds of your life';
+    font-size: 50px;
+  }
+}
